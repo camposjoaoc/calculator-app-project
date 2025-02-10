@@ -10,6 +10,7 @@ const Input = ({ value, onChange, placeholder }: InputProps) => {
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
+      className="input-style"
     />
   );
 };
