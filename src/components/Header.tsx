@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <div>
+        <div className="container-calculator">
           <Link className="title" to="/">
             Calculator
           </Link>
